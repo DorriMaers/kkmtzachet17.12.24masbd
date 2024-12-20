@@ -1,0 +1,612 @@
+@font-face {
+    font-family: "Tiny5";
+    src: local(Tiny5),
+    url("fonts/Tiny5/Tiny5-Regular.woff") format("woff"),
+    url("fonts/Tiny5/Tiny5-Regular.ttf");
+}
+body {
+    margin: 0;
+    background-color: #AAAAAA;
+  }
+
+.header {
+    background-color: white;
+}
+.headertext {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.probnik1 {
+    width: 100%;
+    background: yellow;
+    position: relative;
+    height: 400px;
+    place-items:center;
+    display: grid;
+    background: linear-gradient(95.07deg, #FBFF8C 5.98%, #39B074 48.93%, #377B9C 94.02%);
+}
+.cardinprobnik1 {
+    width: 760px;
+    background: blue;
+    position: absolute;
+    top: 60px;
+    height: 250px;
+    background: linear-gradient(95.8deg, #FFF371 0.31%, #6A6527 99.69%);
+    border-radius: 30px;
+}
+.besplatno {
+    position: absolute;
+    width: 232px;
+    height: 44px;
+    left: 300px;
+    top: 10px;
+    
+    font-family: 'Tiny5';
+    src: url("fonts/Tiny5/");
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+.firstlesson {
+    position: absolute;
+    width: 232px;
+    height: 44px;
+    left: 30px;
+    top: 40px;
+    
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+.kr {
+    position: absolute;
+    width: 232px;
+    height: 44px;
+    left: 260px;
+    top: 50px;
+    
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+}
+.krline {
+    position: absolute;
+    left: 257px;
+    top: 70px;
+    width: 64px;
+    border: 2px solid black;
+    transform: rotate(-13deg);
+}
+.nameincardinprobnik1 {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 17px;
+    top: 110px;
+
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #353535;
+    border-radius: 10px;
+}
+.phoneincardinprobnik1 {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 264px;
+    top: 110px;
+    
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.emailincardinprobnik1 {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 510px;
+    top: 110px;
+
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.zapprob {
+    position: absolute;
+    width: 500px;
+    left: 60px;
+    top: 150px;
+    
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+.regbuttonprobnik1 {
+    position: absolute;
+    width: 175px;
+    height: 50px;
+    left: 550px;
+    top: 180px;
+    background: #4F4F4F;
+    border-radius: 15px;
+    border: 1px solid #353535;
+    
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Tiny5';
+    font-style: normal;
+    text-align: center;
+    color: white
+}
+
+
+.gradient1 {
+    width: 100%;
+    height: 176px;
+    left: 2px;
+    top: 525px;
+    background: linear-gradient(0.02deg, #232323 3.28%, #30A878 96.72%);
+}
+
+.bestschool {
+    width: 100%;
+    left: 0px;
+    background: url('images/756171993555277.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.bestschooltext1 {
+    width: 100%;
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 170px;
+    font-weight: 500;
+    line-height: 116px;
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url("images/darkbg.png");
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bestschoolbgfortxt {
+    width: 100%;
+    height: 256px;
+    left: 0px;
+    top: 1500px;
+    
+    background-image: url("images/lightbg.png");
+}
+.bestschooltext2 {
+    width: 100%;
+    left: 0px;
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+
+.gradient2 {
+    width: 100%;
+    height: 176px;
+    left: 0px;
+    
+    background: linear-gradient(0.02deg, #444444 3.28%, #bfbfbf 96.72%);
+}
+
+.teachers {
+    width: 100%;
+    left: 0px;
+    background-color: #444444;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.teacherbg {
+    background-image: url("images/image_2024-12-19_22-27-59.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.teacherstext {
+    color: #FFFFFF;
+    font-size: 200px;
+    font-family: 'Tiny5';
+    font-style: normal;
+    text-align: center;
+}
+.teachersbutton {
+    background: #61B867;
+    border-radius: 100px;
+    padding: 5px 30px;
+    
+    font-size: 100px;
+    font-family: 'Tiny5';
+    font-style: normal;
+    text-align: center;
+}
+
+
+.gradient3 {
+    width: 100%;
+    height: 176px;
+    left: 0px;
+
+    background: linear-gradient(0.02deg, #FFFFFF 3.28%, #444444 96.72%);
+}
+
+
+.rewiews {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.rewiewstext1 {
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 58px;
+    
+    color: #007B4A;
+}
+.bgreview1 {
+    background-image: url("images/2205-full(1).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bgreview2 {
+    background-image: url("images/1000_F_146700527_GCqwwPTxd07XnZuXKUJWtV6L6PJLHgcO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rewiew {
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+}
+.rewiewer {
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+}
+.rewiewsbutton {
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+
+    
+    width: 300px;
+    height: 70px;
+    background: #32D09E;
+    border-radius: 35px;
+}
+.bgreviewbutton {
+    background: radial-gradient(50.12% 106.69% at 49.88% 49.64%, #1b7a5c 83.86%, #6eaae1 100%)
+}
+
+
+.gradient4 {
+    width: 100%;
+    height: 176px;
+    left: 0px;
+    
+    background: linear-gradient(-15deg, #2E7CC6 10.28%, #FFFFFF 89.72%);
+}
+
+
+.programs {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.baseprogram {
+    background-image: url("images/image_2024-12-20_19-37-39.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33.3%;
+
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    padding: 40px;
+}
+.advprogram1 {
+    background-image: url("images/image_2024-12-20_19-39-06.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33.4%;
+
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    text-align: center;
+}
+.advprogram2 {
+    background-image: url("images/image_2024-12-20_19-40-17.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33.3%;
+
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    text-align: center;
+}
+.basebtn {
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+
+    width: 370px;
+    height: 100px;
+    background: #DAFF07;
+    border-radius: 35px;
+}
+.advbtn1 {
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+
+    width: 370px;
+    height: 100px;
+    background: #07EEFF;
+    border-radius: 35px;
+}
+.advbtn2 {
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+
+    width: 370px;
+    height: 100px;
+    background: #4F2089;
+    border-radius: 35px;
+    color: white;
+}
+
+
+.gradient5 {
+    width: 100%;
+    height: 176px;
+    background: linear-gradient(0deg, #789957 3.28%, #2E7CC6 96.72%);
+}
+
+
+.probnik2 {
+    width: 100%;
+    background: yellow;
+    position: relative;
+    height: 400px;
+    place-items:center;
+    display: grid;
+    background: conic-gradient(from 0deg at 50% 50%, #DEFF4B -90.38deg, #19429B 89.99deg, #DEFF4B 269.62deg, #19429B 449.99deg);
+}
+.cardinprobnik2 {
+    width: 760px;
+    background: blue;
+    position: absolute;
+    top: 60px;
+    height: 250px;
+    background: linear-gradient(95.85deg, #083C61 0.28%, #767035 99.72%);
+    border-radius: 30px;
+}
+.besplatno2 {
+    position: absolute;
+    width: 232px;
+    height: 44px;
+    left: 300px;
+    top: 10px;
+    
+    font-family: 'Tiny5';
+    src: url("fonts/Tiny5/");
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+}
+.firstlesson2 {
+    position: absolute;
+    width: 232px;
+    height: 44px;
+    left: 30px;
+    top: 40px;
+    
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+}
+.kr2 {
+    position: absolute;
+    width: 232px;
+    height: 44px;
+    left: 260px;
+    top: 50px;
+    
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    color: white;
+}
+.krline2 {
+    position: absolute;
+    left: 257px;
+    top: 70px;
+    width: 64px;
+    border: 2px solid white;
+    transform: rotate(-13deg);
+}
+.nameincardinprobnik2 {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 17px;
+    top: 110px;
+
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    background: #474747;
+    border-radius: 15px;
+    border: 1px solid #353535;
+    border-radius: 10px;
+    color: white;
+}
+.phoneincardinprobnik2 {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 264px;
+    top: 110px;
+    
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    background: #474747;
+    border-radius: 10px;
+    color: white;
+}
+.emailincardinprobnik2 {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 510px;
+    top: 110px;
+
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    background: #474747;
+    border-radius: 10px;
+    color: white;
+}
+.zapprob2 {
+    position: absolute;
+    width: 500px;
+    left: 60px;
+    top: 150px;
+    
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+}
+.regbuttonprobnik2 {
+    position: absolute;
+    width: 175px;
+    height: 50px;
+    left: 550px;
+    top: 180px;
+    background: #CDCDCD;
+    border-radius: 15px;
+    border: 1px solid #353535;
+    
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Tiny5';
+    font-style: normal;
+    text-align: center;
+    color: black;
+}
+
+
+.footer {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #3d3d3d;
+}
+.footerlogo {
+    position: relative;
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    text-decoration: none;
+    color: black;
+}
+.footertxt {
+    width: 30%;
+    color: white;
+    
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+}
+.footerbtn {
+    font-family: 'Tiny5';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+
+    width: 475px;
+    height: 150px;
+    border-radius: 35px;
+    background-color: #3d3d3d;
+}
